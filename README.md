@@ -4,7 +4,6 @@
 
 ![CyberSec Toolkit Banner](https://img.shields.io/badge/CyberSec-Toolkit-00ff00?style=for-the-badge&logo=shield&logoColor=white)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://cybersec-toolkit.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub Stars](https://img.shields.io/github/stars/yourusername/cybersec-toolkit?style=flat-square&color=yellow)](https://github.com/yourusername/cybersec-toolkit/stargazers)
@@ -18,8 +17,8 @@
 *A comprehensive, curated collection of cybersecurity tools, resources, learning paths, and educational content — completely free and open source.*
 
 **[🚀 Live Demo](https://cybersec-toolkit.netlify.app/)** •
-**[📝 Report Bug](https://github.com/yourusername/cybersec-toolkit/issues)** •
-**[💡 Request Feature](https://github.com/yourusername/cybersec-toolkit/issues)** •
+**[📝 Report Bug](https://github.com/rohit-1006/CyberSec-Toolkit/issues)** •
+**[💡 Request Feature](https://github.com/rohit-1006/CyberSec-Toolkit/issues)** •
 **[🤝 Contribute](CONTRIBUTING.md)**
 
 </div>
@@ -29,7 +28,7 @@
 ## 📑 Table of Contents
 
 <details>
-<summary>Click to expand</summary>
+<summary>Contents</summary>
 
 - [📖 About The Project](#-about-the-project)
 - [✨ Features](#-features)
@@ -201,215 +200,12 @@ The cybersecurity landscape is vast and constantly evolving. Finding the right t
 
 ---
 
-## 🚀 Getting Started
-
-Follow these steps to get a local copy up and running on your machine.
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-```bash
-# Node.js (v16 or higher)
-node --version
-# Expected: v16.x.x or higher
-
-# npm (v8 or higher) or yarn
-npm --version
-# Expected: 8.x.x or higher
-
-# Git
-git --version
-# Expected: 2.x.x or higher
-```
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/yourusername/cybersec-toolkit.git
-   ```
-
-2. **Navigate to the project directory**
-
-   ```bash
-   cd cybersec-toolkit
-   ```
-
-3. **Install dependencies**
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-4. **Start the development server**
-
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
-
-5. **Open your browser**
-
-   ```
-   http://localhost:3000
-   ```
-
-### Build for Production
-
-```bash
-# Create optimized production build
-npm run build
-# or
-yarn build
-
-# The build folder is ready to be deployed
-```
-
-### Deploy to Netlify
-
-```bash
-# Option 1: Connect GitHub repo to Netlify (recommended)
-# → Go to netlify.com → New site from Git → Select repo
-
-# Option 2: Manual deploy via Netlify CLI
-npm install -g netlify-cli
-netlify login
-netlify deploy --prod --dir=build
-```
-
-### Environment Variables (if applicable)
-
-Create a `.env` file in the root directory:
-
-```env
-# .env
-REACT_APP_API_URL=your_api_url_here
-REACT_APP_ANALYTICS_ID=your_analytics_id
-REACT_APP_SITE_URL=https://cybersec-toolkit.netlify.app
-```
-
----
-
-## 📁 Project Structure
-
-```
-cybersec-toolkit/
-│
-├── 📂 public/
-│   ├── index.html              # Main HTML file
-│   ├── favicon.ico             # Site favicon
-│   ├── manifest.json           # PWA manifest
-│   ├── robots.txt              # Search engine crawling rules
-│   └── 📂 assets/
-│       └── 📂 images/          # Static images
-│
-├── 📂 src/
-│   ├── 📂 components/          # Reusable UI components
-│   │   ├── 📂 common/
-│   │   │   ├── Navbar.jsx      # Navigation bar
-│   │   │   ├── Footer.jsx      # Footer component
-│   │   │   ├── Button.jsx      # Reusable button
-│   │   │   ├── Card.jsx        # Tool/resource card
-│   │   │   ├── SearchBar.jsx   # Search functionality
-│   │   │   ├── Loader.jsx      # Loading spinner
-│   │   │   └── ScrollToTop.jsx # Scroll to top button
-│   │   │
-│   │   ├── 📂 home/
-│   │   │   ├── Hero.jsx        # Hero/banner section
-│   │   │   ├── Features.jsx    # Feature highlights
-│   │   │   ├── Stats.jsx       # Statistics section
-│   │   │   └── CTA.jsx         # Call-to-action section
-│   │   │
-│   │   ├── 📂 tools/
-│   │   │   ├── ToolCard.jsx    # Individual tool card
-│   │   │   ├── ToolList.jsx    # Tool listing grid
-│   │   │   ├── ToolFilter.jsx  # Category filter
-│   │   │   └── ToolDetail.jsx  # Tool detail view
-│   │   │
-│   │   ├── 📂 resources/
-│   │   │   ├── ResourceCard.jsx
-│   │   │   ├── ResourceList.jsx
-│   │   │   └── ResourceFilter.jsx
-│   │   │
-│   │   ├── 📂 learning/
-│   │   │   ├── LearningPath.jsx
-│   │   │   ├── PathCard.jsx
-│   │   │   └── StepGuide.jsx
-│   │   │
-│   │   └── 📂 blog/
-│   │       ├── ArticleCard.jsx
-│   │       ├── ArticleList.jsx
-│   │       └── ArticleDetail.jsx
-│   │
-│   ├── 📂 pages/               # Page-level components
-│   │   ├── Home.jsx            # Homepage
-│   │   ├── Tools.jsx           # Tools page
-│   │   ├── Resources.jsx       # Resources page
-│   │   ├── Learning.jsx        # Learning paths page
-│   │   ├── Blog.jsx            # Blog/articles page
-│   │   ├── About.jsx           # About page
-│   │   ├── Contact.jsx         # Contact page
-│   │   └── NotFound.jsx        # 404 page
-│   │
-│   ├── 📂 data/                # Static data files
-│   │   ├── tools.json          # Tools database
-│   │   ├── resources.json      # Resources data
-│   │   ├── learningPaths.json  # Learning path data
-│   │   └── articles.json       # Blog articles data
-│   │
-│   ├── 📂 styles/              # Global styles
-│   │   ├── globals.css         # Global CSS
-│   │   ├── variables.css       # CSS variables
-│   │   ├── animations.css      # Animation keyframes
-│   │   └── responsive.css      # Media queries
-│   │
-│   ├── 📂 utils/               # Utility functions
-│   │   ├── helpers.js          # Helper functions
-│   │   ├── constants.js        # Constants & configs
-│   │   └── filters.js          # Filter/search logic
-│   │
-│   ├── 📂 hooks/               # Custom React hooks
-│   │   ├── useSearch.js        # Search functionality
-│   │   ├── useFilter.js        # Filter functionality
-│   │   └── useScrollPosition.js
-│   │
-│   ├── 📂 context/             # React context (if used)
-│   │   └── ThemeContext.js     # Theme management
-│   │
-│   ├── App.jsx                 # Main App component
-│   ├── App.css                 # App-level styles
-│   ├── index.js                # Entry point
-│   └── index.css               # Root styles
-│
-├── 📂 docs/                    # Documentation
-│   ├── CONTRIBUTING.md         # Contribution guidelines
-│   ├── CODE_OF_CONDUCT.md      # Code of conduct
-│   └── CHANGELOG.md            # Version changelog
-│
-├── .gitignore                  # Git ignore rules
-├── .env.example                # Environment variables template
-├── .eslintrc.js                # ESLint configuration
-├── .prettierrc                 # Prettier configuration
-├── netlify.toml                # Netlify configuration
-├── package.json                # Dependencies & scripts
-├── package-lock.json           # Dependency lock file
-├── LICENSE                     # MIT License
-└── README.md                   # 📄 You are here!
-```
-
----
-
 ## 🔧 Tools & Categories
 
 ### Complete Tool Directory
 
 <details>
-<summary>🔍 <b>Reconnaissance & OSINT</b> (Click to expand)</summary>
+<summary>🔍 <b>Reconnaissance & OSINT</b> </summary>
 
 | Tool | Description | Platform | Link |
 |------|-------------|----------|------|
@@ -427,7 +223,7 @@ cybersec-toolkit/
 </details>
 
 <details>
-<summary>🌐 <b>Network Security</b> (Click to expand)</summary>
+<summary>🌐 <b>Network Security</b> </summary>
 
 | Tool | Description | Platform | Link |
 |------|-------------|----------|------|
@@ -443,7 +239,7 @@ cybersec-toolkit/
 </details>
 
 <details>
-<summary>🕸️ <b>Web Application Security</b> (Click to expand)</summary>
+<summary>🕸️ <b>Web Application Security</b> </summary>
 
 | Tool | Description | Platform | Link |
 |------|-------------|----------|------|
@@ -459,7 +255,7 @@ cybersec-toolkit/
 </details>
 
 <details>
-<summary>💻 <b>Exploitation & Penetration Testing</b> (Click to expand)</summary>
+<summary>💻 <b>Exploitation & Penetration Testing</b> </summary>
 
 | Tool | Description | Platform | Link |
 |------|-------------|----------|------|
@@ -473,7 +269,7 @@ cybersec-toolkit/
 </details>
 
 <details>
-<summary>🔐 <b>Cryptography</b> (Click to expand)</summary>
+<summary>🔐 <b>Cryptography</b> </summary>
 
 | Tool | Description | Platform | Link |
 |------|-------------|----------|------|
@@ -486,7 +282,7 @@ cybersec-toolkit/
 </details>
 
 <details>
-<summary>🔎 <b>Digital Forensics</b> (Click to expand)</summary>
+<summary>🔎 <b>Digital Forensics</b> </summary>
 
 | Tool | Description | Platform | Link |
 |------|-------------|----------|------|
@@ -499,7 +295,7 @@ cybersec-toolkit/
 </details>
 
 <details>
-<summary>📧 <b>Password Tools</b> (Click to expand)</summary>
+<summary>📧 <b>Password Tools</b> </summary>
 
 | Tool | Description | Platform | Link |
 |------|-------------|----------|------|
@@ -513,7 +309,7 @@ cybersec-toolkit/
 </details>
 
 <details>
-<summary>🐧 <b>Security Operating Systems</b> (Click to expand)</summary>
+<summary>🐧 <b>Security Operating Systems</b> </summary>
 
 | OS | Focus | Link |
 |----|-------|------|
@@ -685,7 +481,7 @@ graph LR
 - [ ] 📊 Personal dashboard
 - [ ] 🔌 Public API for developers
 
-See the [open issues](https://github.com/yourusername/cybersec-toolkit/issues) for a full list of proposed features and known issues.
+See the [open issues](https://github.com/rohit-1006/CyberSec-Toolkit/issues) for a full list of proposed features and known issues.
 
 ---
 
@@ -698,12 +494,12 @@ Contributions are what make the open source community such an amazing place to l
 1. **Fork the Project**
    ```bash
    # Click the 'Fork' button on GitHub or:
-   gh repo fork yourusername/cybersec-toolkit
+   gh repo fork rohit-1006/CyberSec-Toolkit/
    ```
 
 2. **Clone your fork**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/cybersec-toolkit.git
+   git clone https://github.com/rohit-1006/CyberSec-Toolkit.git
    cd cybersec-toolkit
    ```
 
@@ -760,27 +556,6 @@ We follow [Conventional Commits](https://conventionalcommits.org/):
 - 📖 **Improve documentation**
 - ⚡ **Optimize performance**
 
-### Adding a New Tool
-
-To add a new tool, update `src/data/tools.json`:
-
-```json
-{
-  "id": "unique-tool-id",
-  "name": "Tool Name",
-  "category": "reconnaissance",
-  "description": "Brief description of the tool and its purpose.",
-  "website": "https://tool-website.com",
-  "github": "https://github.com/owner/repo",
-  "platform": ["linux", "windows", "macos"],
-  "level": "intermediate",
-  "tags": ["osint", "scanning", "enumeration"],
-  "logo": "/assets/tools/tool-logo.png",
-  "documentation": "https://docs.tool-website.com",
-  "isFree": true
-}
-```
-
 ---
 
 ## ⚖️ Ethical Usage & Disclaimer
@@ -830,30 +605,6 @@ By using this platform, you agree to:
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
 
-```
-MIT License
-
-Copyright (c) 2024 CyberSec Toolkit
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
 ---
 
 ## 📬 Contact
@@ -865,22 +616,11 @@ SOFTWARE.
 | Channel | Link |
 |---------|------|
 | 🌐 **Website** | [cybersec-toolkit.netlify.app](https://cybersec-toolkit.netlify.app/) |
-| 📧 **Email** | [your.email@example.com](mailto:your.email@example.com) |
-| 🐙 **GitHub** | [@yourusername](https://github.com/yourusername) |
-| 🐦 **Twitter/X** | [@yourhandle](https://twitter.com/yourhandle) |
-| 💼 **LinkedIn** | [Your Name](https://linkedin.com/in/yourprofile) |
-| 💬 **Discord** | [Join our server](https://discord.gg/yourinvite) |
+| 📧 **Email** | [malwaremaverick@gmail.com](malwaremaverick@gmail.com) |
+| 🐙 **GitHub** | [@Rohit10](https://github.com/rohit-1006) |
+| 💬 **Discord** | [Join our server](https://discord.gg/GMXxxz7V) |
 
 </div>
-
-### 📫 For Inquiries:
-
-- **General Questions:** Open a [GitHub Discussion](https://github.com/yourusername/cybersec-toolkit/discussions)
-- **Bug Reports:** Open an [Issue](https://github.com/yourusername/cybersec-toolkit/issues/new?template=bug_report.md)
-- **Feature Requests:** Open an [Issue](https://github.com/yourusername/cybersec-toolkit/issues/new?template=feature_request.md)
-- **Security Issues:** Please email directly — **do not** open a public issue
-
----
 
 ## 🙏 Acknowledgments
 
@@ -901,7 +641,7 @@ Special thanks to all the amazing open-source projects and communities that made
 
 <div align="center">
 
-**[Your Name / Team Name]**
+**[ROHIT]**
 
 *Passionate about making cybersecurity accessible to everyone* 🌍
 
@@ -944,7 +684,3 @@ If you find this project useful, please consider giving it a ⭐ — it helps ot
 [⬆ Back to Top](#️-cybersec-toolkit)
 
 </div>
-
----
-
-> **📝 Note:** Replace all instances of `yourusername`, `your.email@example.com`, `@yourhandle`, and placeholder images with your actual information before publishing. Also update tool counts, feature lists, and screenshots to accurately reflect the current state of your website.
