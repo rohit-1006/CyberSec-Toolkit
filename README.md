@@ -1,208 +1,950 @@
-<div align="center">
-
 # 🛡️ CyberSec Toolkit
 
-### Your All-in-One Browser-Based Cybersecurity Utility Platform
+<div align="center">
+
+![CyberSec Toolkit Banner](https://img.shields.io/badge/CyberSec-Toolkit-00ff00?style=for-the-badge&logo=shield&logoColor=white)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://cybersec-toolkit.netlify.app/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/cybersec-toolkit?style=social)](https://github.com/yourusername/cybersec-toolkit)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/cybersec-toolkit?style=social)](https://github.com/yourusername/cybersec-toolkit)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/cybersec-toolkit/pulls)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/cybersec-toolkit)
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/cybersec-toolkit)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/cybersec-toolkit?style=flat-square&color=yellow)](https://github.com/yourusername/cybersec-toolkit/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/yourusername/cybersec-toolkit?style=flat-square)](https://github.com/yourusername/cybersec-toolkit/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/yourusername/cybersec-toolkit?style=flat-square)](https://github.com/yourusername/cybersec-toolkit/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/yourusername/cybersec-toolkit?style=flat-square)](https://github.com/yourusername/cybersec-toolkit/commits/main)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fcybersec-toolkit.netlify.app&style=flat-square)](https://cybersec-toolkit.netlify.app/)
 
-<br/>
+### 🌐 **Your All-in-One Cybersecurity Resource Hub**
 
-**A free, open-source, privacy-first cybersecurity toolkit that runs entirely in your browser.**
-**No installation. No data collection. No server-side processing.**
+*A comprehensive, curated collection of cybersecurity tools, resources, learning paths, and educational content — completely free and open source.*
 
-<br/>
-
-[🌐 Live Demo](https://cybersec-toolkit.netlify.app/) · [🐛 Report Bug](https://github.com/yourusername/cybersec-toolkit/issues) · [✨ Request Feature](https://github.com/yourusername/cybersec-toolkit/issues) · [📖 Documentation](#-documentation)
-
-<br/>
-
-<!-- Replace with actual screenshot -->
-<img src="./assets/screenshots/hero-banner.png" alt="CyberSec Toolkit Banner" width="90%" />
+**[🚀 Live Demo](https://cybersec-toolkit.netlify.app/)** •
+**[📝 Report Bug](https://github.com/yourusername/cybersec-toolkit/issues)** •
+**[💡 Request Feature](https://github.com/yourusername/cybersec-toolkit/issues)** •
+**[🤝 Contribute](CONTRIBUTING.md)**
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [About The Project](#-about-the-project)
-- [Features](#-features)
-- [Tools Included](#-tools-included)
-- [Screenshots](#-screenshots)
-- [Tech Stack](#️-tech-stack)
-- [Getting Started](#-getting-started)
+<details>
+<summary>Click to expand</summary>
+
+- [📖 About The Project](#-about-the-project)
+- [✨ Features](#-features)
+- [🖼️ Screenshots](#️-screenshots)
+- [🛠️ Built With](#️-built-with)
+- [🚀 Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Privacy & Security](#-privacy--security)
-- [Roadmap](#️-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-- [Acknowledgments](#-acknowledgments)
+- [📁 Project Structure](#-project-structure)
+- [🔧 Tools & Categories](#-tools--categories)
+- [📚 Resources](#-resources)
+- [🎓 Learning Paths](#-learning-paths)
+- [🗺️ Roadmap](#️-roadmap)
+- [🤝 Contributing](#-contributing)
+- [⚖️ Ethical Usage & Disclaimer](#️-ethical-usage--disclaimer)
+- [📄 License](#-license)
+- [📬 Contact](#-contact)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [⭐ Star History](#-star-history)
+
+</details>
 
 ---
 
-## 🔍 About The Project
+## 📖 About The Project
 
-**CyberSec Toolkit** is a comprehensive, browser-based cybersecurity utility platform designed for developers, students, security professionals, and anyone who cares about digital security.
+<div align="center">
 
-### ❓ Why CyberSec Toolkit?
+<!-- Replace with actual screenshot -->
+![CyberSec Toolkit Screenshot](https://via.placeholder.com/900x500/1a1a2e/00ff00?text=CyberSec+Toolkit+Screenshot)
 
-Most online security tools process your data on their servers — potentially logging your passwords, messages, and sensitive information. **CyberSec Toolkit is different:**
+</div>
 
-- 🔐 **100% Client-Side** — All computation happens in YOUR browser
-- 🚫 **Zero Data Collection** — Nothing is ever sent to any server
-- 💰 **Completely Free** — No premium tiers, no paywalls
-- 📦 **No Installation** — Works directly in your browser
-- 📱 **Fully Responsive** — Works on desktop, tablet, and mobile
-- 🎓 **Educational** — Learn cybersecurity concepts while using the tools
+**CyberSec Toolkit** is a free, open-source web platform that serves as a **one-stop cybersecurity resource hub**. Whether you're a complete beginner exploring cybersecurity for the first time, a student working on lab assignments, or a seasoned professional looking for quick tool references — this platform has something for you.
 
-> *"Security is not a product, but a process."* — Bruce Schneier
+### 🎯 Why CyberSec Toolkit?
+
+The cybersecurity landscape is vast and constantly evolving. Finding the right tools, resources, and learning materials often means searching across dozens of websites, forums, and documentation pages. **CyberSec Toolkit solves this problem** by bringing everything together in one beautifully designed, easy-to-navigate platform.
+
+| Problem | Our Solution |
+|---------|-------------|
+| 🔍 Tools scattered across the internet | ✅ Centralized, categorized tool database |
+| 📚 Overwhelming amount of learning resources | ✅ Curated, quality-filtered resources |
+| 🗺️ No clear learning roadmap | ✅ Structured beginner to advanced paths |
+| 💰 Many resources behind paywalls | ✅ 100% free and open source |
+| 📱 Poor mobile experience on security sites | ✅ Fully responsive, modern design |
+| 🎨 Outdated, cluttered interfaces | ✅ Clean, professional dark-themed UI |
+
+### 🌟 Key Highlights
+
+- 🛡️ **100+ Cybersecurity Tools** catalogued and categorized
+- 📚 **Curated Resources** — hand-picked for quality and relevance
+- 🎓 **3 Learning Paths** — Beginner, Intermediate, Advanced
+- 📝 **Educational Articles** — tutorials, guides, and writeups
+- 🎨 **Modern UI/UX** — cybersecurity-themed dark mode design
+- 📱 **Fully Responsive** — works on all devices
+- ⚡ **Lightning Fast** — hosted on Netlify CDN
+- 🔒 **Secure** — HTTPS enforced, no data collection
+- 🆓 **Completely Free** — no sign-up, no paywalls
+- 🌍 **Open Source** — community-driven development
 
 ---
 
 ## ✨ Features
 
-| Feature | Description |
-|---------|-------------|
-| 🔑 **Password Generator** | Generate cryptographically secure passwords with customizable options |
-| 📊 **Password Strength Checker** | Analyze password strength with entropy calculation & crack time estimation |
-| #️⃣ **Hash Generator** | Generate MD5, SHA-1, SHA-256, SHA-512 hashes |
-| 🔒 **Encryption/Decryption** | AES-256 encryption & decryption for secure messaging |
-| 📝 **Base64 Encoder/Decoder** | Encode and decode Base64 strings |
-| 📡 **IP Lookup** | Look up geolocation and details of any IP address |
-| 🔍 **URL Scanner** | Check URLs for safety and potential threats |
-| 🌙 **Dark/Light Theme** | Toggle between dark and light modes |
-| 📱 **Responsive Design** | Fully responsive across all device sizes |
-| ♿ **Accessible** | Built with accessibility best practices |
+### 🛠️ Comprehensive Tool Database
+```
+📂 Tools organized by categories:
+├── 🔍 Reconnaissance & OSINT
+├── 🌐 Network Security & Analysis
+├── 🕸️ Web Application Security
+├── 🔐 Cryptography & Encryption
+├── 💻 Exploitation & Penetration Testing
+├── 🔎 Digital Forensics & Incident Response
+├── 📧 Password Cracking & Recovery
+├── 📡 Wireless Security
+├── 🛡️ Vulnerability Assessment
+├── 🐧 Security Operating Systems
+├── 🤖 Malware Analysis
+└── 📊 Security Monitoring & SIEM
+```
+
+### 📚 Curated Resource Library
+- 📖 Official documentation links
+- 🎥 Video tutorials & courses
+- 📝 Cheat sheets & quick references
+- 📑 Whitepapers & research papers
+- 🏆 Certification guides (CEH, OSCP, CompTIA Security+, CISSP)
+- 🌐 Practice platforms (TryHackMe, HackTheBox, OverTheWire)
+- 📰 Cybersecurity news sources & blogs
+- 📘 Recommended books
+
+### 🎓 Structured Learning Paths
+
+| Level | Focus Areas | Duration |
+|-------|------------|----------|
+| 🟢 **Beginner** | Networking basics, Linux fundamentals, security concepts | 2-3 months |
+| 🟡 **Intermediate** | Web security, penetration testing, scripting | 3-6 months |
+| 🔴 **Advanced** | Exploit development, malware analysis, red teaming | 6-12 months |
+
+### 📝 Educational Blog & Articles
+- Step-by-step tutorials
+- Tool reviews & comparisons
+- CTF writeups & walkthroughs
+- Industry trends & threat intelligence
+- Career guidance & certification roadmaps
+
+### 🎨 Modern Design
+- 🌙 Professional dark theme
+- 💫 Smooth animations & transitions
+- 📱 Mobile-first responsive design
+- ♿ Accessibility compliant
+- ⚡ Optimized performance
 
 ---
 
-## 🧰 Tools Included
-
-### 🔑 Password Generator
-Generate strong, random passwords using the Web Crypto API (`crypto.getRandomValues()`).
-
-- Adjustable length (4–128 characters)
-- Toggle uppercase, lowercase, numbers, special characters
-- Exclude ambiguous characters (0, O, l, 1)
-- One-click copy to clipboard
-- Real-time strength indicator
-
-### 📊 Password Strength Checker
-Comprehensive password analysis tool.
-
-- Character diversity check
-- Entropy calculation (bits)
-- Common pattern & dictionary word detection
-- Estimated crack time (brute force & dictionary attack)
-- Visual strength meter
-
-### #️⃣ Hash Generator
-Generate cryptographic hashes from text input.
-
-- **MD5** (128-bit) — Legacy checksums
-- **SHA-1** (160-bit) — Git commits
-- **SHA-256** (256-bit) — Blockchain, SSL
-- **SHA-512** (512-bit) — High-security applications
-- Demonstrates avalanche effect
-
-### 🔒 Encryption / Decryption
-Encrypt and decrypt messages using industry-standard algorithms.
-
-- **AES-256** (Advanced Encryption Standard)
-- **Caesar Cipher** (Educational)
-- **Vigenère Cipher** (Educational)
-- Symmetric key encryption
-- Password-based key derivation
-
-### 📝 Base64 Encoder / Decoder
-Convert text to and from Base64 encoding.
-
-- Real-time encoding/decoding
-- Clear explanation: encoding ≠ encryption
-- Use cases: JWT tokens, data URLs, email attachments
-
-### 📡 IP / Network Lookup
-Discover information about any IP address.
-
-- Auto-detect your public IP
-- Geolocation (city, region, country)
-- ISP & ASN information
-- Timezone detection
-- Coordinates (latitude/longitude)
-
-### 🔍 URL / Link Scanner
-Analyze URLs for potential security threats.
-
-- SSL/TLS certificate validation
-- Domain reputation check
-- Redirect chain analysis
-- Risk score assessment
-
----
-
-## 📸 Screenshots
+## 🖼️ Screenshots
 
 <div align="center">
 
-<!-- Replace with actual screenshots -->
+### Homepage
+![Homepage](https://via.placeholder.com/800x450/1a1a2e/00ff00?text=Homepage+Screenshot)
 
-| Homepage | Password Generator |
-|:---:|:---:|
-| ![Homepage](./assets/screenshots/homepage.png) | ![Password Generator](./assets/screenshots/password-gen.png) |
+### Tools Section
+![Tools](https://via.placeholder.com/800x450/1a1a2e/00ff00?text=Tools+Section+Screenshot)
 
-| Hash Generator | Encryption Tool |
-|:---:|:---:|
-| ![Hash Generator](./assets/screenshots/hash-gen.png) | ![Encryption](./assets/screenshots/encryption.png) |
+### Resources
+![Resources](https://via.placeholder.com/800x450/1a1a2e/00ff00?text=Resources+Screenshot)
 
-| Password Checker | IP Lookup |
-|:---:|:---:|
-| ![Password Checker](./assets/screenshots/pass-checker.png) | ![IP Lookup](./assets/screenshots/ip-lookup.png) |
+### Learning Paths
+![Learning](https://via.placeholder.com/800x450/1a1a2e/00ff00?text=Learning+Paths+Screenshot)
+
+### Mobile View
+<img src="https://via.placeholder.com/350x700/1a1a2e/00ff00?text=Mobile+View" alt="Mobile View" width="300">
 
 </div>
+
+> **📸 Note:** Replace placeholder images with actual screenshots of your website.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
+
+### Core Technologies
 
 <div align="center">
 
-| Layer | Technology |
-|-------|-----------|
-| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
-| **Framework** | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) |
-| **Styling** | ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) |
-| **Cryptography** | Web Crypto API, CryptoJS |
-| **Build Tool** | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) |
-| **Hosting** | ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white) |
-| **Version Control** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) |
+| Technology | Purpose | Badge |
+|-----------|---------|-------|
+| **HTML5** | Structure & Content | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |
+| **CSS3** | Styling & Animations | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |
+| **JavaScript** | Interactivity & Logic | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
+| **React.js** | Frontend Framework | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
+| **Netlify** | Hosting & Deployment | ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white) |
+| **Git** | Version Control | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
 
 </div>
+
+### Additional Libraries & Tools
+
+```
+├── React Router      → Client-side routing
+├── Styled Components → CSS-in-JS styling (or Tailwind CSS)
+├── React Icons       → Icon library
+├── Framer Motion     → Animations
+├── Markdown Parser   → Blog content rendering
+└── ESLint/Prettier   → Code quality
+```
 
 ---
 
 ## 🚀 Getting Started
 
+Follow these steps to get a local copy up and running on your machine.
+
 ### Prerequisites
 
 Make sure you have the following installed:
 
-- **Node.js** (v16.0 or higher) — [Download](https://nodejs.org/)
-- **npm** (v8.0 or higher) or **yarn**
-- **Git** — [Download](https://git-scm.com/)
+```bash
+# Node.js (v16 or higher)
+node --version
+# Expected: v16.x.x or higher
+
+# npm (v8 or higher) or yarn
+npm --version
+# Expected: 8.x.x or higher
+
+# Git
+git --version
+# Expected: 2.x.x or higher
+```
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/cybersec-toolkit.git
+   ```
+
+2. **Navigate to the project directory**
+
+   ```bash
+   cd cybersec-toolkit
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+4. **Start the development server**
+
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+5. **Open your browser**
+
+   ```
+   http://localhost:3000
+   ```
+
+### Build for Production
 
 ```bash
-# Verify installations
-node --version
-npm --version
-git --version
+# Create optimized production build
+npm run build
+# or
+yarn build
+
+# The build folder is ready to be deployed
+```
+
+### Deploy to Netlify
+
+```bash
+# Option 1: Connect GitHub repo to Netlify (recommended)
+# → Go to netlify.com → New site from Git → Select repo
+
+# Option 2: Manual deploy via Netlify CLI
+npm install -g netlify-cli
+netlify login
+netlify deploy --prod --dir=build
+```
+
+### Environment Variables (if applicable)
+
+Create a `.env` file in the root directory:
+
+```env
+# .env
+REACT_APP_API_URL=your_api_url_here
+REACT_APP_ANALYTICS_ID=your_analytics_id
+REACT_APP_SITE_URL=https://cybersec-toolkit.netlify.app
+```
+
+---
+
+## 📁 Project Structure
+
+```
+cybersec-toolkit/
+│
+├── 📂 public/
+│   ├── index.html              # Main HTML file
+│   ├── favicon.ico             # Site favicon
+│   ├── manifest.json           # PWA manifest
+│   ├── robots.txt              # Search engine crawling rules
+│   └── 📂 assets/
+│       └── 📂 images/          # Static images
+│
+├── 📂 src/
+│   ├── 📂 components/          # Reusable UI components
+│   │   ├── 📂 common/
+│   │   │   ├── Navbar.jsx      # Navigation bar
+│   │   │   ├── Footer.jsx      # Footer component
+│   │   │   ├── Button.jsx      # Reusable button
+│   │   │   ├── Card.jsx        # Tool/resource card
+│   │   │   ├── SearchBar.jsx   # Search functionality
+│   │   │   ├── Loader.jsx      # Loading spinner
+│   │   │   └── ScrollToTop.jsx # Scroll to top button
+│   │   │
+│   │   ├── 📂 home/
+│   │   │   ├── Hero.jsx        # Hero/banner section
+│   │   │   ├── Features.jsx    # Feature highlights
+│   │   │   ├── Stats.jsx       # Statistics section
+│   │   │   └── CTA.jsx         # Call-to-action section
+│   │   │
+│   │   ├── 📂 tools/
+│   │   │   ├── ToolCard.jsx    # Individual tool card
+│   │   │   ├── ToolList.jsx    # Tool listing grid
+│   │   │   ├── ToolFilter.jsx  # Category filter
+│   │   │   └── ToolDetail.jsx  # Tool detail view
+│   │   │
+│   │   ├── 📂 resources/
+│   │   │   ├── ResourceCard.jsx
+│   │   │   ├── ResourceList.jsx
+│   │   │   └── ResourceFilter.jsx
+│   │   │
+│   │   ├── 📂 learning/
+│   │   │   ├── LearningPath.jsx
+│   │   │   ├── PathCard.jsx
+│   │   │   └── StepGuide.jsx
+│   │   │
+│   │   └── 📂 blog/
+│   │       ├── ArticleCard.jsx
+│   │       ├── ArticleList.jsx
+│   │       └── ArticleDetail.jsx
+│   │
+│   ├── 📂 pages/               # Page-level components
+│   │   ├── Home.jsx            # Homepage
+│   │   ├── Tools.jsx           # Tools page
+│   │   ├── Resources.jsx       # Resources page
+│   │   ├── Learning.jsx        # Learning paths page
+│   │   ├── Blog.jsx            # Blog/articles page
+│   │   ├── About.jsx           # About page
+│   │   ├── Contact.jsx         # Contact page
+│   │   └── NotFound.jsx        # 404 page
+│   │
+│   ├── 📂 data/                # Static data files
+│   │   ├── tools.json          # Tools database
+│   │   ├── resources.json      # Resources data
+│   │   ├── learningPaths.json  # Learning path data
+│   │   └── articles.json       # Blog articles data
+│   │
+│   ├── 📂 styles/              # Global styles
+│   │   ├── globals.css         # Global CSS
+│   │   ├── variables.css       # CSS variables
+│   │   ├── animations.css      # Animation keyframes
+│   │   └── responsive.css      # Media queries
+│   │
+│   ├── 📂 utils/               # Utility functions
+│   │   ├── helpers.js          # Helper functions
+│   │   ├── constants.js        # Constants & configs
+│   │   └── filters.js          # Filter/search logic
+│   │
+│   ├── 📂 hooks/               # Custom React hooks
+│   │   ├── useSearch.js        # Search functionality
+│   │   ├── useFilter.js        # Filter functionality
+│   │   └── useScrollPosition.js
+│   │
+│   ├── 📂 context/             # React context (if used)
+│   │   └── ThemeContext.js     # Theme management
+│   │
+│   ├── App.jsx                 # Main App component
+│   ├── App.css                 # App-level styles
+│   ├── index.js                # Entry point
+│   └── index.css               # Root styles
+│
+├── 📂 docs/                    # Documentation
+│   ├── CONTRIBUTING.md         # Contribution guidelines
+│   ├── CODE_OF_CONDUCT.md      # Code of conduct
+│   └── CHANGELOG.md            # Version changelog
+│
+├── .gitignore                  # Git ignore rules
+├── .env.example                # Environment variables template
+├── .eslintrc.js                # ESLint configuration
+├── .prettierrc                 # Prettier configuration
+├── netlify.toml                # Netlify configuration
+├── package.json                # Dependencies & scripts
+├── package-lock.json           # Dependency lock file
+├── LICENSE                     # MIT License
+└── README.md                   # 📄 You are here!
+```
+
+---
+
+## 🔧 Tools & Categories
+
+### Complete Tool Directory
+
+<details>
+<summary>🔍 <b>Reconnaissance & OSINT</b> (Click to expand)</summary>
+
+| Tool | Description | Platform | Link |
+|------|-------------|----------|------|
+| **Nmap** | Network discovery & security auditing | Cross-platform | [nmap.org](https://nmap.org) |
+| **Shodan** | Internet-connected device search engine | Web-based | [shodan.io](https://shodan.io) |
+| **theHarvester** | Email, subdomain, and name harvester | Python | [GitHub](https://github.com/laramies/theHarvester) |
+| **Maltego** | Open source intelligence & forensics | Cross-platform | [maltego.com](https://maltego.com) |
+| **Recon-ng** | Full-featured web reconnaissance framework | Python | [GitHub](https://github.com/lanmaster53/recon-ng) |
+| **SpiderFoot** | Automated OSINT collection | Python/Web | [spiderfoot.net](https://spiderfoot.net) |
+| **Amass** | In-depth attack surface mapping | Go | [GitHub](https://github.com/owasp-amass/amass) |
+| **Censys** | Internet-wide scanning platform | Web-based | [censys.io](https://censys.io) |
+| **FOCA** | Metadata and hidden info analysis | Windows | [GitHub](https://github.com/ElevenPaths/FOCA) |
+| **Sublist3r** | Subdomain enumeration tool | Python | [GitHub](https://github.com/aboul3la/Sublist3r) |
+
+</details>
+
+<details>
+<summary>🌐 <b>Network Security</b> (Click to expand)</summary>
+
+| Tool | Description | Platform | Link |
+|------|-------------|----------|------|
+| **Wireshark** | Network protocol analyzer | Cross-platform | [wireshark.org](https://wireshark.org) |
+| **Netcat** | Networking utility (Swiss Army knife) | Cross-platform | Built-in |
+| **Tcpdump** | Command-line packet analyzer | Linux/macOS | Built-in |
+| **Snort** | Network intrusion detection system | Cross-platform | [snort.org](https://snort.org) |
+| **Suricata** | High performance IDS/IPS | Cross-platform | [suricata.io](https://suricata.io) |
+| **Zeek (Bro)** | Network security monitor | Cross-platform | [zeek.org](https://zeek.org) |
+| **pfSense** | Open source firewall/router | FreeBSD | [pfsense.org](https://pfsense.org) |
+| **Ettercap** | Man-in-the-middle attack suite | Cross-platform | [GitHub](https://github.com/Ettercap/ettercap) |
+
+</details>
+
+<details>
+<summary>🕸️ <b>Web Application Security</b> (Click to expand)</summary>
+
+| Tool | Description | Platform | Link |
+|------|-------------|----------|------|
+| **Burp Suite** | Web application security testing | Cross-platform | [portswigger.net](https://portswigger.net) |
+| **OWASP ZAP** | Web app vulnerability scanner | Cross-platform | [zaproxy.org](https://zaproxy.org) |
+| **Nikto** | Web server scanner | Perl | [GitHub](https://github.com/sullo/nikto) |
+| **SQLMap** | Automatic SQL injection tool | Python | [sqlmap.org](https://sqlmap.org) |
+| **WPScan** | WordPress vulnerability scanner | Ruby | [wpscan.com](https://wpscan.com) |
+| **Dirb/Dirbuster** | Web content scanner | Cross-platform | Built-in (Kali) |
+| **Gobuster** | Directory/DNS/VHost busting tool | Go | [GitHub](https://github.com/OJ/gobuster) |
+| **XSSer** | Cross-site scripting framework | Python | [GitHub](https://github.com/epsylon/xsser) |
+
+</details>
+
+<details>
+<summary>💻 <b>Exploitation & Penetration Testing</b> (Click to expand)</summary>
+
+| Tool | Description | Platform | Link |
+|------|-------------|----------|------|
+| **Metasploit** | Penetration testing framework | Cross-platform | [metasploit.com](https://metasploit.com) |
+| **BeEF** | Browser exploitation framework | Cross-platform | [beefproject.com](https://beefproject.com) |
+| **Empire** | Post-exploitation framework | Python | [GitHub](https://github.com/BC-SECURITY/Empire) |
+| **Cobalt Strike** | Adversary simulation | Windows/Linux | [cobaltstrike.com](https://cobaltstrike.com) |
+| **SearchSploit** | Exploit database search | Cross-platform | Built-in (Kali) |
+| **Shellter** | Dynamic shellcode injection | Windows | [shellterproject.com](https://shellterproject.com) |
+
+</details>
+
+<details>
+<summary>🔐 <b>Cryptography</b> (Click to expand)</summary>
+
+| Tool | Description | Platform | Link |
+|------|-------------|----------|------|
+| **OpenSSL** | Cryptography toolkit | Cross-platform | [openssl.org](https://openssl.org) |
+| **CyberChef** | Web-based encoding/decoding | Web | [gchq.github.io](https://gchq.github.io/CyberChef/) |
+| **GPG** | GNU Privacy Guard encryption | Cross-platform | [gnupg.org](https://gnupg.org) |
+| **VeraCrypt** | Disk encryption | Cross-platform | [veracrypt.fr](https://veracrypt.fr) |
+| **Hashcat** | Advanced password recovery | Cross-platform | [hashcat.net](https://hashcat.net) |
+
+</details>
+
+<details>
+<summary>🔎 <b>Digital Forensics</b> (Click to expand)</summary>
+
+| Tool | Description | Platform | Link |
+|------|-------------|----------|------|
+| **Autopsy** | Digital forensics platform | Cross-platform | [sleuthkit.org](https://sleuthkit.org/autopsy/) |
+| **Volatility** | Memory forensics framework | Python | [volatilityfoundation.org](https://volatilityfoundation.org) |
+| **FTK Imager** | Forensic imaging tool | Windows | [exterro.com](https://exterro.com) |
+| **YARA** | Malware identification | Cross-platform | [virustotal.github.io](https://virustotal.github.io/yara/) |
+| **Binwalk** | Firmware analysis | Cross-platform | [GitHub](https://github.com/ReFirmLabs/binwalk) |
+
+</details>
+
+<details>
+<summary>📧 <b>Password Tools</b> (Click to expand)</summary>
+
+| Tool | Description | Platform | Link |
+|------|-------------|----------|------|
+| **John the Ripper** | Password cracker | Cross-platform | [openwall.com](https://openwall.com/john/) |
+| **Hydra** | Online password cracker | Cross-platform | [GitHub](https://github.com/vanhauser-thc/thc-hydra) |
+| **Hashcat** | GPU-based password recovery | Cross-platform | [hashcat.net](https://hashcat.net) |
+| **Medusa** | Parallel brute force tool | Linux | [GitHub](https://github.com/jmk-foofus/medusa) |
+| **CeWL** | Custom wordlist generator | Ruby | [GitHub](https://github.com/digininja/CeWL) |
+| **Crunch** | Wordlist generator | Linux | Built-in (Kali) |
+
+</details>
+
+<details>
+<summary>🐧 <b>Security Operating Systems</b> (Click to expand)</summary>
+
+| OS | Focus | Link |
+|----|-------|------|
+| **Kali Linux** | Penetration testing | [kali.org](https://kali.org) |
+| **Parrot OS** | Security & privacy | [parrotsec.org](https://parrotsec.org) |
+| **BlackArch** | Arch-based pentesting | [blackarch.org](https://blackarch.org) |
+| **Tails** | Privacy & anonymity | [tails.boum.org](https://tails.boum.org) |
+| **Whonix** | Advanced privacy | [whonix.org](https://whonix.org) |
+| **REMnux** | Malware analysis | [remnux.org](https://remnux.org) |
+| **CAINE** | Digital forensics | [caine-live.net](https://caine-live.net) |
+| **Pentoo** | Gentoo-based pentesting | [pentoo.ch](https://pentoo.ch) |
+
+</details>
+
+---
+
+## 📚 Resources
+
+### 🏆 Certification Guides
+
+| Certification | Level | Organization | Focus |
+|:---:|:---:|:---:|:---:|
+| CompTIA Security+ | Entry | CompTIA | General Security |
+| CEH | Intermediate | EC-Council | Ethical Hacking |
+| OSCP | Advanced | OffSec | Penetration Testing |
+| CISSP | Expert | ISC² | Security Management |
+| GPEN | Advanced | GIAC/SANS | Penetration Testing |
+| eJPT | Entry | eLearnSecurity | Junior Pentesting |
+| PNPT | Intermediate | TCM Security | Practical Pentesting |
+
+### 🎮 Practice Platforms
+
+| Platform | Type | Best For | Link |
+|----------|------|----------|------|
+| TryHackMe | Guided Labs | Beginners | [tryhackme.com](https://tryhackme.com) |
+| HackTheBox | Challenges | Intermediate | [hackthebox.com](https://hackthebox.com) |
+| OverTheWire | Wargames | Beginners | [overthewire.org](https://overthewire.org) |
+| PicoCTF | CTF | Beginners | [picoctf.org](https://picoctf.org) |
+| VulnHub | Vulnerable VMs | Intermediate | [vulnhub.com](https://vulnhub.com) |
+| HackThisSite | Web Challenges | Beginners | [hackthissite.org](https://hackthissite.org) |
+| Root Me | Challenges | All Levels | [root-me.org](https://root-me.org) |
+| CryptoHack | Cryptography | Intermediate | [cryptohack.org](https://cryptohack.org) |
+| DVWA | Web App | Beginners | [GitHub](https://github.com/digininja/DVWA) |
+| WebGoat | Web Security | Beginners | [GitHub](https://github.com/WebGoat/WebGoat) |
+
+### 📘 Recommended Books
+
+| Book | Author | Level |
+|------|--------|-------|
+| *The Web Application Hacker's Handbook* | Dafydd Stuttard | Intermediate |
+| *Hacking: The Art of Exploitation* | Jon Erickson | Intermediate |
+| *Penetration Testing* | Georgia Weidman | Beginner |
+| *Metasploit: The Penetration Tester's Guide* | David Kennedy | Intermediate |
+| *Black Hat Python* | Justin Seitz | Intermediate |
+| *The Linux Command Line* | William Shotts | Beginner |
+| *Practical Malware Analysis* | Michael Sikorski | Advanced |
+| *Red Team Field Manual* | Ben Clark | All Levels |
+
+---
+
+## 🎓 Learning Paths
+
+### 🟢 Beginner Path (2-3 Months)
+
+```mermaid
+graph LR
+    A[Networking Basics] --> B[Linux Fundamentals]
+    B --> C[Security Concepts]
+    C --> D[Basic Tool Usage]
+    D --> E[First CTF Challenges]
+    
+    style A fill:#00ff00,color:#000
+    style B fill:#00cc00,color:#000
+    style C fill:#009900,color:#fff
+    style D fill:#006600,color:#fff
+    style E fill:#003300,color:#fff
+```
+
+**Topics Covered:**
+- [ ] TCP/IP, DNS, HTTP/HTTPS fundamentals
+- [ ] Linux command line & file system
+- [ ] CIA Triad, authentication, authorization
+- [ ] Basic Nmap scanning
+- [ ] Wireshark packet capture
+- [ ] TryHackMe beginner rooms
+
+### 🟡 Intermediate Path (3-6 Months)
+
+```mermaid
+graph LR
+    A[OWASP Top 10] --> B[Vulnerability Assessment]
+    B --> C[Penetration Testing]
+    C --> D[Python for Security]
+    D --> E[Advanced CTF & Labs]
+    
+    style A fill:#ffff00,color:#000
+    style B fill:#cccc00,color:#000
+    style C fill:#999900,color:#000
+    style D fill:#666600,color:#fff
+    style E fill:#333300,color:#fff
+```
+
+**Topics Covered:**
+- [ ] SQL Injection, XSS, CSRF
+- [ ] Nessus/OpenVAS scanning
+- [ ] Metasploit framework
+- [ ] Python scripting for automation
+- [ ] HackTheBox challenges
+
+### 🔴 Advanced Path (6-12 Months)
+
+```mermaid
+graph LR
+    A[Exploit Development] --> B[Malware Analysis]
+    B --> C[Red Team Ops]
+    C --> D[Incident Response]
+    D --> E[Security Research]
+    
+    style A fill:#ff0000,color:#fff
+    style B fill:#cc0000,color:#fff
+    style C fill:#990000,color:#fff
+    style D fill:#660000,color:#fff
+    style E fill:#330000,color:#fff
+```
+
+**Topics Covered:**
+- [ ] Buffer overflows & shellcode
+- [ ] Static & dynamic malware analysis
+- [ ] Active Directory attacks
+- [ ] Digital forensics & memory analysis
+- [ ] Bug bounty hunting
+
+---
+
+## 🗺️ Roadmap
+
+### Current Status: `v1.0` ✅
+
+- [x] 🏠 Homepage with hero section & feature cards
+- [x] 🛠️ Tools database with categorization
+- [x] 📚 Resources section with curated links
+- [x] 🎓 Learning paths (Beginner/Intermediate/Advanced)
+- [x] 📝 Blog/Articles section
+- [x] 📖 About page
+- [x] 📞 Contact page
+- [x] 📱 Responsive design
+- [x] 🌙 Dark theme
+- [x] ⚡ Netlify deployment
+
+### Upcoming: `v1.1` 🔄
+
+- [ ] 🔍 Global search functionality
+- [ ] 🏷️ Advanced filtering & sorting
+- [ ] 📊 Tool comparison feature
+- [ ] 📄 Downloadable PDF cheat sheets
+- [ ] 🔗 Share buttons for tools/articles
+- [ ] 📈 SEO improvements
+
+### Future: `v2.0` 🔮
+
+- [ ] 💬 Community forum / discussion board
+- [ ] 👤 User accounts & progress tracking
+- [ ] ⭐ Tool ratings & reviews
+- [ ] 🎥 Embedded video tutorials
+- [ ] 📱 Progressive Web App (PWA) support
+- [ ] 🌍 Multi-language support (i18n)
+- [ ] 🤖 AI-powered tool recommendations
+- [ ] 🧪 Interactive in-browser labs
+- [ ] 📊 Personal dashboard
+- [ ] 🔌 Public API for developers
+
+See the [open issues](https://github.com/yourusername/cybersec-toolkit/issues) for a full list of proposed features and known issues.
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**! 🎉
+
+### How to Contribute
+
+1. **Fork the Project**
+   ```bash
+   # Click the 'Fork' button on GitHub or:
+   gh repo fork yourusername/cybersec-toolkit
+   ```
+
+2. **Clone your fork**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/cybersec-toolkit.git
+   cd cybersec-toolkit
+   ```
+
+3. **Create a Feature Branch**
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+
+4. **Make your changes**
+   ```bash
+   # Edit files, add tools, fix bugs, etc.
+   ```
+
+5. **Commit your changes**
+   ```bash
+   git add .
+   git commit -m "✨ feat: Add AmazingFeature"
+   ```
+
+6. **Push to your branch**
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+
+7. **Open a Pull Request**
+   ```bash
+   # Go to GitHub and click 'New Pull Request'
+   ```
+
+### Commit Convention
+
+We follow [Conventional Commits](https://conventionalcommits.org/):
+
+| Type | Description | Example |
+|------|-------------|---------|
+| `feat` | New feature | `feat: add search functionality` |
+| `fix` | Bug fix | `fix: resolve mobile nav issue` |
+| `docs` | Documentation | `docs: update README` |
+| `style` | Formatting | `style: fix indentation` |
+| `refactor` | Code restructuring | `refactor: simplify filter logic` |
+| `perf` | Performance | `perf: optimize image loading` |
+| `test` | Testing | `test: add unit tests for filter` |
+| `chore` | Maintenance | `chore: update dependencies` |
+
+### Contribution Ideas
+
+- 🆕 **Add new tools** to the database
+- 📝 **Write articles** or tutorials
+- 🐛 **Report bugs** or issues
+- 💡 **Suggest new features**
+- 🌍 **Translate** content
+- 🎨 **Improve UI/UX** design
+- ♿ **Enhance accessibility**
+- 📖 **Improve documentation**
+- ⚡ **Optimize performance**
+
+### Adding a New Tool
+
+To add a new tool, update `src/data/tools.json`:
+
+```json
+{
+  "id": "unique-tool-id",
+  "name": "Tool Name",
+  "category": "reconnaissance",
+  "description": "Brief description of the tool and its purpose.",
+  "website": "https://tool-website.com",
+  "github": "https://github.com/owner/repo",
+  "platform": ["linux", "windows", "macos"],
+  "level": "intermediate",
+  "tags": ["osint", "scanning", "enumeration"],
+  "logo": "/assets/tools/tool-logo.png",
+  "documentation": "https://docs.tool-website.com",
+  "isFree": true
+}
+```
+
+---
+
+## ⚖️ Ethical Usage & Disclaimer
+
+### ⚠️ Important Legal Notice
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║  🚨 ETHICAL USE ONLY 🚨                                     ║
+║                                                              ║
+║  The tools and information provided on CyberSec Toolkit      ║
+║  are intended for EDUCATIONAL and AUTHORIZED PROFESSIONAL    ║
+║  use ONLY.                                                   ║
+║                                                              ║
+║  ❌ Do NOT use any tools for unauthorized access             ║
+║  ❌ Do NOT attack systems without explicit permission        ║
+║  ❌ Do NOT violate any laws or regulations                   ║
+║  ❌ Do NOT use information for malicious purposes            ║
+║                                                              ║
+║  ✅ DO use tools in authorized testing environments          ║
+║  ✅ DO obtain proper written permission before testing       ║
+║  ✅ DO practice responsible disclosure                       ║
+║  ✅ DO use knowledge for defensive purposes                  ║
+║  ✅ DO comply with all applicable laws                       ║
+║                                                              ║
+║  The creators of CyberSec Toolkit are NOT responsible        ║
+║  for any misuse of the tools or information provided.        ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+### Code of Ethics
+
+By using this platform, you agree to:
+
+1. 🔒 **Only test systems you own or have explicit authorization to test**
+2. 📋 **Always obtain written permission before conducting security assessments**
+3. 🤝 **Practice responsible disclosure** when discovering vulnerabilities
+4. ⚖️ **Comply with all local, state, national, and international laws**
+5. 🎓 **Use knowledge gained for educational and defensive purposes**
+6. 🛡️ **Help improve security, not exploit weaknesses for personal gain**
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
+
+```
+MIT License
+
+Copyright (c) 2024 CyberSec Toolkit
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## 📬 Contact
+
+<div align="center">
+
+### Get in Touch! 👋
+
+| Channel | Link |
+|---------|------|
+| 🌐 **Website** | [cybersec-toolkit.netlify.app](https://cybersec-toolkit.netlify.app/) |
+| 📧 **Email** | [your.email@example.com](mailto:your.email@example.com) |
+| 🐙 **GitHub** | [@yourusername](https://github.com/yourusername) |
+| 🐦 **Twitter/X** | [@yourhandle](https://twitter.com/yourhandle) |
+| 💼 **LinkedIn** | [Your Name](https://linkedin.com/in/yourprofile) |
+| 💬 **Discord** | [Join our server](https://discord.gg/yourinvite) |
+
+</div>
+
+### 📫 For Inquiries:
+
+- **General Questions:** Open a [GitHub Discussion](https://github.com/yourusername/cybersec-toolkit/discussions)
+- **Bug Reports:** Open an [Issue](https://github.com/yourusername/cybersec-toolkit/issues/new?template=bug_report.md)
+- **Feature Requests:** Open an [Issue](https://github.com/yourusername/cybersec-toolkit/issues/new?template=feature_request.md)
+- **Security Issues:** Please email directly — **do not** open a public issue
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to all the amazing open-source projects and communities that made this possible:
+
+- 🛡️ [OWASP Foundation](https://owasp.org) — Web security standards & resources
+- 🐧 [Kali Linux](https://kali.org) — Penetration testing distribution
+- 🎓 [TryHackMe](https://tryhackme.com) — Interactive cybersecurity training
+- 🏴 [HackTheBox](https://hackthebox.com) — Cybersecurity labs & challenges
+- ⚡ [Netlify](https://netlify.com) — Hosting & deployment platform
+- ⚛️ [React](https://react.dev) — Frontend framework
+- 🎨 [React Icons](https://react-icons.github.io/react-icons/) — Icon library
+- 📜 [Shields.io](https://shields.io) — README badges
+- 🌟 All open-source tool creators and maintainers
+- 💜 The cybersecurity community for continuous inspiration
+
+### 🏗️ Built With Love By
+
+<div align="center">
+
+**[Your Name / Team Name]**
+
+*Passionate about making cybersecurity accessible to everyone* 🌍
+
+</div>
+
+---
+
+## ⭐ Star History
+
+If you find this project useful, please consider giving it a ⭐ — it helps others discover the project!
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/cybersec-toolkit&type=Date)](https://star-history.com/#yourusername/cybersec-toolkit&Date)
+
+</div>
+
+---
+
+## 📊 Repository Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🛡️ Stay Safe. Stay Ethical. Stay Curious. 🛡️
+
+**Made with ❤️ for the cybersecurity community**
+
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=yourusername.cybersec-toolkit)
+
+[⬆ Back to Top](#️-cybersec-toolkit)
+
+</div>
+
+---
+
+> **📝 Note:** Replace all instances of `yourusername`, `your.email@example.com`, `@yourhandle`, and placeholder images with your actual information before publishing. Also update tool counts, feature lists, and screenshots to accurately reflect the current state of your website.
