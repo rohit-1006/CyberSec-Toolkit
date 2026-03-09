@@ -4,14 +4,6 @@
 
 ![CyberSec Toolkit Banner](https://img.shields.io/badge/CyberSec-Toolkit-00ff00?style=for-the-badge&logo=shield&logoColor=white)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/cybersec-toolkit?style=flat-square&color=yellow)](https://github.com/yourusername/cybersec-toolkit/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/cybersec-toolkit?style=flat-square)](https://github.com/yourusername/cybersec-toolkit/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/cybersec-toolkit?style=flat-square)](https://github.com/yourusername/cybersec-toolkit/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/yourusername/cybersec-toolkit?style=flat-square)](https://github.com/yourusername/cybersec-toolkit/commits/main)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fcybersec-toolkit.netlify.app&style=flat-square)](https://cybersec-toolkit.netlify.app/)
-
 ### 🌐 **Your All-in-One Cybersecurity Resource Hub**
 
 *A comprehensive, curated collection of cybersecurity tools, resources, learning paths, and educational content — completely free and open source.*
